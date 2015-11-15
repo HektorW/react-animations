@@ -1,0 +1,13 @@
+{
+	"ecmaFeatures": {
+		"jsx": true
+	},
+	"env": {
+		"browser": true,
+		"commonjs": true
+	},
+	"rules": {
+		"undef": true,
+		"unused": true
+	}
+}

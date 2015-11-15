@@ -1,0 +1,43 @@
+
+.page-transitions {
+
+	&__container {
+		height: 100vh;
+		overflow: hidden;
+		position: relative;
+	}
+
+	&__page {
+		height: 100%;
+		left: 0;
+		font-size: 100px;
+		position: absolute;
+		top: 0;
+		width: 100%;
+
+		&--nth-0 {
+			background-color: #001f3f;
+			color: #80BFFF;
+		}
+
+		&--nth-1 {
+			background-color: #3D9970;
+			color: #163728;
+		}
+
+		&--nth-2 {
+			background-color: #85144b;
+			color: #EB7AB1;
+		}
+
+		&--nth-3 {
+			background-color: #FF851B;
+			color: #663000;
+		}
+
+		&--nth-4 {
+			background-color: #111;
+			color: #ddd;
+		}
+	}
+}
